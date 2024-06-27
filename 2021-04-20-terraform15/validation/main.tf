@@ -20,7 +20,7 @@ resource "azurerm_resource_group" "main" {
 
 module "network" {
   source        = "Azure/network/azurerm"
-  version       = "~> 3.3.0"
+  version       = "~> 3.5.0"
   vnet_name     = "The best name ever!"
   address_space = 24
   #resource_group_name    = azurerm_resource_group.main.group
