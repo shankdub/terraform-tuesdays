@@ -38,7 +38,7 @@ resource "azurerm_public_ip" "pip" {
 
 module "ubuntu_server" {
   source  = "Azure/virtual-machine/azurerm"
-  version = "1.0.0"
+  version = "1.1.0"
 
   resource_group_name = azurerm_resource_group.example.name
   size                = "Standard_D2s_v4"
