@@ -4,7 +4,7 @@ go 1.21
 
 toolchain go1.22.4
 
-require github.com/gruntwork-io/terratest v0.46.15
+require github.com/gruntwork-io/terratest v0.50.0
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
