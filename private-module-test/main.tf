@@ -19,7 +19,7 @@ module "networking" {
 
 module "compute" {
   source  = "Azure/compute/azurerm"
-  version = "5.3.0"
+  version = "5.3.1"
   
   resource_group_name = azurerm_resource_group.main.name
   vm_os_simple = "UbuntuServer"
