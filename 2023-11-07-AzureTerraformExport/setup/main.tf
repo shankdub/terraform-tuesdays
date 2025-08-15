@@ -42,7 +42,7 @@ resource "random_id" "ip_dns" {
 # Create two virtual machines using the VM module
 module "web_vms" {
   source  = "Azure/compute/azurerm"
-  version = "5.3.0"
+  version = "5.3.1"
 
   resource_group_name           = azurerm_resource_group.vm.name
   vnet_subnet_id                = module.vnet.vnet_subnets_name_id["web"]
