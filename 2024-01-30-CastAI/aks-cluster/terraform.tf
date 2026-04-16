@@ -19,7 +19,7 @@ terraform {
 
     castai = {
       source  = "castai/castai"
-      version = "~>6.2"
+      version = "~> 6.2"
     }
   }
 }
